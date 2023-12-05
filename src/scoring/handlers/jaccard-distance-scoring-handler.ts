@@ -1,6 +1,6 @@
-import { Collection, Token } from '../../models';
-import { IScoringHandler } from '../scoring-handler';
-import { round } from '../utils';
+import { Collection, Token } from '../../models/index.js';
+import { IScoringHandler } from '../scoring-handler.js';
+import { round } from '../utils.js';
 
 const MAX_RARITY_SCORE = 100;
 

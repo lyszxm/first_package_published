@@ -1,5 +1,5 @@
-import { Token } from './token';
-import { TokenRankingFeatures } from './token-ranking-features';
+import { TokenRankingFeatures } from './token-ranking-features.js';
+import { Token } from './token.js';
 
 export type TokenRarity = {
   score: number;

@@ -1,7 +1,7 @@
-import { Token } from './token';
-import { StringTrait, TraitType, TraitValue } from './token-metadata';
-import { TokenStandard } from './token-standard';
-import { normalizeAttributeString } from './utils/attribute-utils';
+import { StringTrait, TraitType, TraitValue } from './token-metadata.js';
+import { TokenStandard } from './token-standard.js';
+import { Token } from './token.js';
+import { normalizeAttributeString } from './utils/attribute-utils.js';
 
 export type CollectionTrait = {
   trait: StringTrait;

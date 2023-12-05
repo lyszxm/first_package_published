@@ -1,7 +1,27 @@
 {
-  "name": "@nftgo/gorarity",
-  "version": "1.0.1",
+  "name": "gorarity",
+  "version": "1.0.0",
   "description": "An algorithm to calculate rarity of NFT(how special it is), based on Jaccard Distance.",
+  "author": "David Mokel",
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/mjs/index.d.ts",
+        "default": "./dist/mjs/index.js"
+      },
+      "require": {
+        "types": "./dist/cjs/index.d.ts",
+        "default": "./dist/cjs/index.js"
+      }
+    }
+  },
+  "types": "./dist/cjs/index.d.ts",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/mjs/index.js",
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "rarity",
     "nft",
@@ -13,17 +33,18 @@
     "nodejs",
     "javascript"
   ],
-  "exports": {
-    ".": {
-      "import": "./dist/mjs/index.js",
-      "require": "./dist/cjs/index.js"
-    }
+  "homepage": "https://github.com/dmokel/GoRarity#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmokel/GoRarity.git"
   },
-  "main": "./dist/cjs/index.js",
-  "module": "./dist/mjs/index.js",
-  "files": [
-    "dist"
-  ],
+  "bugs": {
+    "url": "https://github.com/dmokel/GoRarity/issues"
+  },
+  "engines": {
+    "node": ">=16.14.0"
+  },
+  "packageManager": "pnpm@8.10.0",
   "scripts": {
     "prepare": "husky install",
     "lint": "eslint ./ --max-warnings=0 --ext .ts",
@@ -33,18 +54,8 @@
     "test": "jest",
     "clean": "rm -rf ./dist tsconfig.tsbuildinfo",
     "compile": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json && ./fixup",
-    "build": "yarn clean; yarn compile"
+    "build": "pnpm run clean; pnpm run compile"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NFTGo/GoRarity.git"
-  },
-  "author": "NFTGo.io",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/NFTGo/GoRarity/issues"
-  },
-  "homepage": "https://github.com/NFTGo/GoRarity#readme",
   "devDependencies": {
     "@types/jest": "^29.4.0",
     "@types/node": "^18.14.0",

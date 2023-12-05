@@ -1,6 +1,6 @@
-export * from './collection';
-export * from './token';
-export { EVMContractTokenIdentifier } from './token-identifier';
-export { StringTrait, TokenMetadata } from './token-metadata';
-export * from './token-rarity';
-export * from './token-standard';
+export * from './collection.js';
+export { EVMContractTokenIdentifier } from './token-identifier.js';
+export { StringTrait, TokenMetadata } from './token-metadata.js';
+export * from './token-rarity.js';
+export * from './token-standard.js';
+export * from './token.js';

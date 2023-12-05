@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-empty-function */
-import { Collection, TokenRarity } from './models';
-import { Scorer } from './scoring';
-import { TokenFeatureExtractor } from './scoring/token-feature-extractor';
+import { Collection, TokenRarity } from './models/index.js';
+import { Scorer } from './scoring/index.js';
+import { TokenFeatureExtractor } from './scoring/token-feature-extractor.js';
 
 export class RarityRanker {
   private static defaultScorer = new Scorer();

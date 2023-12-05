@@ -1,4 +1,4 @@
-import { normalizeAttributeString } from './utils/attribute-utils';
+import { normalizeAttributeString } from './utils/attribute-utils.js';
 
 export type TraitType = string;
 export type TraitValue = string;

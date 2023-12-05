@@ -1,6 +1,6 @@
-import { Collection, Token, TokenStandard } from '../models';
-import { JaccardDistanceScoringHandler } from './handlers';
-import { IScoringHandler } from './scoring-handler';
+import { Collection, Token, TokenStandard } from '../models/index.js';
+import { JaccardDistanceScoringHandler } from './handlers/index.js';
+import { IScoringHandler } from './scoring-handler.js';
 
 export class Scorer {
   private handler: IScoringHandler;

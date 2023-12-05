@@ -1,4 +1,4 @@
-import { normalizeContractString } from './utils/attribute-utils';
+import { normalizeContractString } from './utils/attribute-utils.js';
 
 export class EVMContractTokenIdentifier {
   private _contractAddress: string;

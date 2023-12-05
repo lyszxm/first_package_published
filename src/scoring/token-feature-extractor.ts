@@ -1,5 +1,5 @@
-import { Collection, Token } from '../models';
-import { TokenRankingFeatures } from '../models/token-ranking-features';
+import { Collection, Token } from '../models/index.js';
+import { TokenRankingFeatures } from '../models/token-ranking-features.js';
 
 export class TokenFeatureExtractor {
   static extractUniqueTraitCount(collection: Collection, token: Token): TokenRankingFeatures {

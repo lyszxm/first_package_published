@@ -43,7 +43,7 @@
     // 来源于此仓库https://github.com/tsconfig/bases
     //
     // rootDir 和 outDir 则是我们之前已经使用过的配置项。
-    "target": "es2021",
+    "target": "es2015",
     // "lib": ["es2021"], // 我们不显式指定lib，而是让lib根据target自适应，指定lib可能会导致缺少一些ts类型文件
     "rootDir": "./src"
   },

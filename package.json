@@ -1,8 +1,8 @@
 {
-  "name": "gorarity",
-  "version": "2.0.0",
-  "description": "An algorithm to calculate rarity of NFT(how special it is), based on Jaccard Distance.",
-  "author": "David Mokel",
+  "name": "@01-monorepo-startup/first_package_published",
+  "version": "1.0.0",
+  "description": "first_package_published.",
+  "author": "lsy",
   "license": "MIT",
   "exports": {
     ".": {
@@ -36,25 +36,25 @@
   "homepage": "https://github.com/dmokel/GoRarity#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dmokel/GoRarity.git"
+    "url": "git+https://github.com/lyszxm/first_package_published"
   },
   "bugs": {
-    "url": "https://github.com/dmokel/GoRarity/issues"
+    "url": "https://github.com/lyszxm/first_package_published/issues"
   },
   "engines": {
-    "node": ">=16.14.0"
+    "node": ">=16.16.0"
   },
   "packageManager": "pnpm@8.10.0",
   "scripts": {
     "prepare": "husky install",
     "lint": "eslint ./ --max-warnings=0 --ext .ts",
     "lint-fix": "eslint ./ --max-warnings=0 --ext .ts --fix",
-    "format": "prettier --config .prettierrc '.' --write",
-    "format-watch": "onchange -- prettier '.' --write {{changed}}",
-    "test": "jest",
-    "clean": "rm -rf ./dist tsconfig.tsbuildinfo",
-    "compile": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json && ./fixup",
-    "build": "pnpm run clean; pnpm run compile"
+    "format": "prettier --config .prettierrc . --write",
+    "format-watch": "onchange -- prettier . --write {{changed}}",
+    "clean": "rimraf ./dist ./tsconfig.tsbuildinfo",
+    "compile": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json && fixup.sh",
+    "build": "pnpm run clean && pnpm run compile",
+    "output": "tsc -p tsconfig.json"
   },
   "devDependencies": {
     "@types/jest": "^29.4.0",

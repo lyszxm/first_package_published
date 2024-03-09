@@ -55,7 +55,11 @@
     "clean": "rimraf ./dist ./tsconfig.tsbuildinfo",
     "compile": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json && fixup.sh",
     "build": "pnpm run clean && pnpm run compile",
-    "output": "tsc -p tsconfig.json"
+    "output": "tsc -p tsconfig.json",
+    "tag-push": "git push --follow-tags origin master",
+    "tagPush": "git push origin --tags",
+    "release:dry": "standard-version --release-as patch --dry-run",
+    "release": "standard-version --release-as patch"
   },
   "devDependencies": {
     "@types/jest": "^29.4.0",
@@ -71,6 +75,7 @@
     "prettier": "^2.8.4",
     "ts-jest": "^29.0.5",
     "ts-node": "^10.9.1",
-    "typescript": "4.9.5"
+    "typescript": "4.9.5",
+    "standard-version": "^9.5.0"
   }
 }

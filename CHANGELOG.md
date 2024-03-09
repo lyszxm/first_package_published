@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.2](https://github.com/lyszxm/first_package_published/compare/v2.0.1...v2.0.2) (2024-03-09)
+
+
+### Features
+
+* 添加log ([8d9cb42](https://github.com/lyszxm/first_package_published/commit/8d9cb42fb4341baf186223e7767721dc21069d8c))
+
+
+### Bug Fixes
+
+* 强制install ([ccae9d2](https://github.com/lyszxm/first_package_published/commit/ccae9d213fbbbbf68c72f13d303d0fa480109a59))
+
 ### [2.0.1](https://github.com/lyszxm/first_package_published/compare/v2.0.0...v2.0.1) (2024-03-09)
 
 ### Bug Fixes

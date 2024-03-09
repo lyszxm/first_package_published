@@ -46,6 +46,7 @@
   },
   "packageManager": "pnpm@8.10.0",
   "scripts": {
+    "test": "node -v",
     "prepare": "husky install",
     "lint": "eslint ./ --max-warnings=0 --ext .ts",
     "lint-fix": "eslint ./ --max-warnings=0 --ext .ts --fix",

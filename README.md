@@ -5,3 +5,5 @@
 - `"files"`：该字段列出了要包含在发布的 npm 包中的文件或目录。在这个例子中，只有 `dist` 目录会被包含在发布的包中。
 
 通过这些配置，其他开发者可以根据不同的模块系统（ES 模块或 CommonJS）使用您的模块，并且可以正确地导入类型声明文件。
+
+https://github.com/dmokel/GoRarity/blob/master/tsconfig-base.json

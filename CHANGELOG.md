@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.5](https://github.com/lyszxm/first_package_published/compare/v2.0.4...v2.0.5) (2024-03-10)
+
+
+### Bug Fixes
+
+* 修复sh在工作流执行会错误 ([013a890](https://github.com/lyszxm/first_package_published/commit/013a890326f100f5093bff0c83abf0490d655262))
+
 ### [2.0.4](https://github.com/lyszxm/first_package_published/compare/v2.0.3...v2.0.4) (2024-03-10)
 
 

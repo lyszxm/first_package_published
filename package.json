@@ -33,10 +33,10 @@
     "nodejs",
     "javascript"
   ],
-  "homepage": "https://github.com/dmokel/GoRarity#readme",
+  "homepage": "https://github.com/lyszxm/first_package_published#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lyszxm/first_package_published"
+    "url": "git+https://github.com/lyszxm/first_package_published.git"
   },
   "bugs": {
     "url": "https://github.com/lyszxm/first_package_published/issues"

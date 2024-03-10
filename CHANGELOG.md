@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.6](https://github.com/lyszxm/first_package_published/compare/v2.0.5...v2.0.6) (2024-03-10)
+
+
+### Bug Fixes
+
+* 为仓库中的脚本赋予执行权限 ([49dfdf3](https://github.com/lyszxm/first_package_published/commit/49dfdf36b951a3446e4f0986ebd46506e5c41e2e))
+
 ### [2.0.5](https://github.com/lyszxm/first_package_published/compare/v2.0.4...v2.0.5) (2024-03-10)
 
 

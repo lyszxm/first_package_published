@@ -53,7 +53,7 @@
     "format": "prettier --config .prettierrc . --write",
     "format-watch": "onchange -- prettier . --write {{changed}}",
     "clean": "rimraf ./dist ./tsconfig.tsbuildinfo",
-    "compile": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json && ./fixup.sh",
+    "compile": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json && sh ./fixup.sh",
     "compile_window": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json && fixup.sh",
     "build": "pnpm run clean && pnpm run compile",
     "buildWin": "pnpm run clean && pnpm run compile_window",
